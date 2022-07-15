@@ -11,7 +11,6 @@ const requestFilter=(req,res,next)=>{
     else{
         next();
     }
-}
 app.use(requestFilter)
 
 
